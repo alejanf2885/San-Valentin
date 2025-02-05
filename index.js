@@ -1,7 +1,7 @@
 setInterval(() => {
     let img = document.querySelector("img");
     img.src = img.src.split("?")[0] + "?" + new Date().getTime();
-}, 2500); // Cambia el GIF cada 2 segundos (ajústalo según la duración 
+}, 2500); 
 
 const yesButton = document.getElementById("yes");
 const noButton = document.getElementById("no");
